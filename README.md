@@ -12,23 +12,11 @@
 
 ---
 
-## Table of Contents
-
-- [Executive Summary (What & Why)](#executive-summary-what--why)
-- [Value proposition](#value-proposition)
-- [Target users](#target-users)
-- [Typical use cases](#typical-use-cases)
-- [How it works (brief)](#how-it-works-brief)
-- [FAQ](#faq)
-- [Contributing & License](#contributing--license)
-
----
-
 ## Executive Summary (What & Why)
 
 Tech News — Executive Insight collects high-signal AI and technology coverage, synthesizes the key developments, and generates a short executive briefing that highlights strategic impact, near-term risks, and recommended actions. The goal: compress hours of reading into a 3–5 minute decision brief that a leader can act on or forward to a team.
 
-Presentation Website: https://evanlee2048.github.io/rss-emerging-tech-digest/
+Presentation Website: https://evanlee2048.github.io/tech-news-executive-insight/
 
 ## Value proposition
 
