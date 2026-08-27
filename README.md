@@ -1,10 +1,84 @@
-# Emerging Tech News Analysis
+# 📰 Tech News — Executive Insight
+### Daily AI & Tech briefings that save leaders time and surface what actually matters.
 
-End-to-end pipeline that polls 10 RSS feeds → fetches full article content → semantic dedup → HKMA relevance filter → per-story LLM summary → Strategic Director Briefing (5-hat framework) → assembled digest → HTML newsletter email.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Scope](https://img.shields.io/badge/scope-AI%20%26%20Tech-blue)]()
+[![Output](https://img.shields.io/badge/output-Executive%20Brief-orange)]()
 
-**Sources:** SemiAnalysis, Import AI, Latent Space, VentureBeat, Gradient Flow, InfoQ, Dark Reading, Payments Dive, Ledger Insights, HKMA Press Releases
+> News is noisy. Executives need a short, defensible briefing — not another feed.  
+> Tech News — Executive Insight turns the daily flood of AI & tech signals into a tight, decision-ready memo: impact, risk, and recommended next steps — not just headlines.
+
+⭐ Star this repo if you want fewer long reads and more action-ready insight.
+
+---
+
+## Table of Contents
+
+- [Executive Summary (What & Why)](#executive-summary-what--why)
+- [Value proposition](#value-proposition)
+- [Target users](#target-users)
+- [Typical use cases](#typical-use-cases)
+- [How it works (brief)](#how-it-works-brief)
+- [FAQ](#faq)
+- [Contributing & License](#contributing--license)
+
+---
+
+## Executive Summary (What & Why)
+
+Tech News — Executive Insight collects high-signal AI and technology coverage, synthesizes the key developments, and generates a short executive briefing that highlights strategic impact, near-term risks, and recommended actions. The goal: compress hours of reading into a 3–5 minute decision brief that a leader can act on or forward to a team.
 
 Presentation Website: https://evanlee2048.github.io/rss-emerging-tech-digest/
+
+## Value proposition
+
+- Save time: distill a day (or week) of coverage into a single, prioritized briefing.
+- Surface business impact: translate technical developments into strategic implications.
+- Reduce noise: filter out low-signal posts and emphasize primary-source reporting and citations.
+- Action-first: every briefing ends with concise recommended actions for product, ops, or strategy.
+- Configurable: customize topics, depth, and cadence to your organization’s needs.
+
+## Target users
+
+- Executives (CEOs, CTOs, CIOs) needing fast situational awareness.
+- Product and strategy leaders monitoring competitive / platform moves.
+- Investors and analysts scanning AI & tech market shifts.
+- Innovation teams triaging long reads into exec-ready decisions.
+- Communications teams preparing briefing notes for leadership.
+
+## Typical use cases
+
+- Morning briefings: short update to start the day with what matters.
+- Board / leadership meeting prep: one-page context on recent developments.
+- Competitive intelligence: quick signal tracking for launches, hires, and funding.
+- Investment triage: high-level summaries to determine what deserves deeper diligence.
+- Research triage: identify which long-form papers or posts require follow-up.
+
+## How it works (brief)
+
+- Collect: configurable sources (RSS, APIs, curated lists).
+- Extract: pull the core claims, evidence, and primary links.
+- Summarize: synthesize into an executive summary with impact, risk, and recommendations.
+- Cite: every non-obvious claim points to at least one source; "data gaps" are flagged, not invented.
+- Deliver: briefings are output as short Markdown (or other delivery formats you configure).
+
+It is an end-to-end pipeline that polls 10 RSS feeds → fetches full article content → semantic dedup → HKMA relevance filter → per-story LLM summary → Strategic Director Briefing (5-hat framework) → assembled digest → HTML newsletter email.
+
+See the Technical Instructions section below for setup, configuration, and running details.
+
+## FAQ
+
+Q: What sources does this use?  
+A: Configurable — add RSS feeds, news APIs, or curated sources. By default it favors primary reporting and authoritative outlets.
+
+Q: Are the summaries automatic or human-written?  
+A: Summaries are generated automatically and tuned for executive style. You can review and edit before distribution.
+
+Q: Can I change the topic focus and cadence?  
+A: Yes — narrow to domains like “AI safety,” “ML infra,” or run daily/weekly digests.
+
+Q: How are citations and accuracy handled?  
+A: Claims link back to original sources; if evidence is missing we label it as a "data gap" rather than invent
 
 ---
 
